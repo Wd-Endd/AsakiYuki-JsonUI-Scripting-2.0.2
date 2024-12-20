@@ -1,0 +1,26 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ElementTypes = void 0;
+var ElementTypes;
+(function (ElementTypes) {
+    ElementTypes["Panel"] = "panel";
+    ElementTypes["StackPanel"] = "stack_panel";
+    ElementTypes["CollectionPanel"] = "collection_panel";
+    ElementTypes["InputPanel"] = "input_panel";
+    ElementTypes["Grid"] = "grid";
+    ElementTypes["Button"] = "button";
+    ElementTypes["Toggle"] = "toggle";
+    ElementTypes["Label"] = "label";
+    ElementTypes["Image"] = "image";
+    ElementTypes["Dropdown"] = "dropdown";
+    ElementTypes["Slider"] = "slider";
+    ElementTypes["SliderBox"] = "slider_box";
+    ElementTypes["EditBox"] = "edit_box";
+    ElementTypes["ScrollView"] = "scroll_view";
+    ElementTypes["ScrollbarTrack"] = "scrollbar_track";
+    ElementTypes["ScrollbarBox"] = "scrollbar_box";
+    ElementTypes["Factory"] = "factory";
+    ElementTypes["Screen"] = "screen";
+    ElementTypes["Custom"] = "custom";
+    ElementTypes["SelectionWheel"] = "selection_wheel";
+})(ElementTypes || (exports.ElementTypes = ElementTypes = {}));
