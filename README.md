@@ -5,7 +5,8 @@
 # Installation
 To install the required dependencies, run the following command in your project directory:
 ```bat
-npm install jsonui-scripting
+npm install jsonui-scripting # Nope
+npm install git+https://github.com/Wd-Endd/AsakiYuki-s-JsonUI-Scripting-2.0.2.git
 ```
 This will add jsonui-scripting to your project's package.json file and download the package into your node_modules directory.
 
